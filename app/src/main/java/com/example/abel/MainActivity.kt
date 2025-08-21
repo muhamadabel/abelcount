@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
                 txtNumber.text = number.toString()
             }
             btnToast.setOnClickListener {
+                //toast ni
                 Toast.makeText(
                     this@MainActivity, "Count $number",
                     Toast.LENGTH_SHORT).show()
