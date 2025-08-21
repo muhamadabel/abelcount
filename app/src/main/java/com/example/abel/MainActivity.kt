@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         with(binding) {
+            //nambahin angka dan set txtnumber
             txtNumber.text = number.toString()
             btnCount.setOnClickListener {
                 number++
